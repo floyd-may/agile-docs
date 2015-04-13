@@ -4,23 +4,27 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  margin-bottom: 8pt;
   font-size: 14pt;
   border: 1pt solid #999;
   box-sizing: border-box;
-  padding-top: 1in;
+  padding-top: 0.75in;
   padding-left: 0.8in;
   padding-right: 0.8in;
 }
+.page-wrapper p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.page-wrapper:last-of-type {
+  margin-bottom: 0;
+}
 h1 {
   text-align: center;
-  font-size: 27pt;
+  font-size: 21pt;
 }
 li {
   list-style-type: none;
-}
-.agile-manifesto p {
-  text-align: center;
-  margin-bottom: 0;
 }
 .agile-manifesto p + p {
   margin-top: 0;
@@ -32,11 +36,40 @@ li {
 .agile-manifesto .signatories td {
   vertical-align: top;
 }
+.agile-principles {
+  font-size: 12pt;
+  padding-top: 0.25in;
+}
+.agile-principles footer {
+  margin-top: 6pt;
+}
 .values {
   text-align: center;
 }
 .values strong {
   font-size: 18pt;
+}
+.craftsmanship h2 {
+  text-align: center;
+  font-size: 14pt;
+  font-weight: normal;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+}
+.craftsmanship p {
+  text-align: left;
+}
+.craftsmanship .values p + p {
+  margin-top: 0;
+}
+.craftsmanship .values li p:nth-child(2) {
+  text-indent: 72pt;
+}
+.craftsmanship footer {
+  margin-top: 24pt;
+}
+.craftsmanship footer p {
+  text-align: center;
 }
 footer {
   margin-left: 1in;
