@@ -1,0 +1,71 @@
+.page-wrapper {
+  width: 7in;
+  height: 9.5in;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  font-size: 14pt;
+
+  border: 1pt solid #999;
+  box-sizing: border-box;
+
+  padding-top: 1in;
+  @h-padding: 0.8in;
+  padding-left: @h-padding;
+  padding-right: @h-padding;
+}
+
+h1 {
+  text-align: center;
+  font-size: 27pt;
+}
+
+li {
+  list-style-type: none;
+}
+
+.agile-manifesto {
+
+  p {
+    text-align: center;
+    margin-bottom: 0;
+
+    & + p {
+      margin-top: 0;
+    }
+  }
+
+  .signatories {
+    margin-top: 24pt;
+    width: 100%;
+
+    td {
+      vertical-align: top;
+    }
+  }
+}
+
+.values {
+  text-align: center;
+
+  strong {
+    font-size: 18pt;
+  }
+}
+
+footer {
+    margin-left: 1in;
+    margin-right: 1in;
+    font-size: 10pt;
+    color: #999;
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    width: 100pt;
+    height: 100pt;
+  }
+}
