@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link type='text/css' rel='stylesheet' href='style.css' />
+  </head>
+  <body ng-app class='cards'>
+
+    <div
+      class='page-wrapper agile-manifesto'
+      style='margin-right: 0.25in;'
+      ng-include='"agile-manifesto.html"'
+      >
+    </div>
+
+    <div
+      class='page-wrapper agile-manifesto'
+      ng-include='"agile-manifesto.html"'
+      >
+    </div>
+
+    <div
+      class='page-wrapper agile-principles'
+      style='margin-right: 0.25in;'
+      ng-include='"agile-principles.html"'
+      >
+    </div>
+
+    <div
+      class='page-wrapper agile-principles'
+      ng-include='"agile-principles.html"'
+      >
+    </div>
+
+
+    <script src='node_modules/angular/angular.js'></script>
+  </body>
+</html>
